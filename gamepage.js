@@ -23,6 +23,7 @@ function submit(){
     }
 }
 function playAgain(){
+    document.getElementById("guessField").value = "";
     y =  Math.floor(Math.random() * 10 + 1);
 }
 
